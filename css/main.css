@@ -25,7 +25,8 @@ font-family: 'Open Sans', sans-serif; */
 
 .header-bg {
   position: absolute;
-  left: 220px;
+  top: -46px;
+  left: 230px;
   z-index: -1;
 }
 
@@ -76,8 +77,8 @@ font-family: 'Open Sans', sans-serif; */
 
 .header-content {
   position: absolute;
-  left: -10px;
-  top: 200px;
+  left: -5px;
+  top: 162px;
   width: 484px;
   height: 289px;
 }
