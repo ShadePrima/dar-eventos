@@ -9,6 +9,10 @@ font-family: 'Open Sans', sans-serif; */
 :root {
   --orang: #e8702f;
   --black: #000;
+  --font-man: 'Manrope', sans-serif;
+  --font-mon: 'Montserrat', sans-serif;
+  --font-mun: 'Nunito', sans-serif;
+  --font-open: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -317,4 +321,21 @@ font-family: 'Open Sans', sans-serif; */
   font-size: 30px;
   text-align: center;
   margin-bottom: 30px;
+}
+
+/* section concert */
+
+.concert-items {
+  margin-top: 105px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 40px;
+}
+
+.concert-text {
+  margin-top: 14px;
+  font-family: var(--font-man);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--black);
 }
