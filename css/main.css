@@ -1,0 +1,53 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Montserrat:wght@700&family=Nunito:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.logo {
+  width: 192px;
+  height: 73px;
+  /* margin-right: 74px; */
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 25px;
+}
+
+.nav-link {
+  color: #000;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.nav-button {
+  color: black;
+  width: 57px;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(102.25deg, #fbe10f 0%, #f49705 90.97%);
+}
+
+.nav-arrow {
+  position: relative;
+  top: 5px;
+}
