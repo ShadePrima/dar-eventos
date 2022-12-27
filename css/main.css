@@ -6,6 +6,11 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
+:root {
+  --orang: #e8702f;
+  --black: #000;
+}
+
 .container {
   max-width: 1230px;
   padding: 0 30px;
@@ -13,6 +18,16 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 /* header */
+
+.header {
+  position: relative;
+}
+
+.header-bg {
+  position: absolute;
+  left: 220px;
+  z-index: -1;
+}
 
 .logo {
   width: 192px;
@@ -24,6 +39,7 @@ font-family: 'Open Sans', sans-serif; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
 }
 
 .nav-list {
@@ -50,4 +66,72 @@ font-family: 'Open Sans', sans-serif; */
 .nav-arrow {
   position: relative;
   top: 5px;
+}
+
+/* header-content */
+
+.header-row {
+  position: relative;
+}
+
+.header-content {
+  position: absolute;
+  left: -10px;
+  top: 200px;
+  width: 484px;
+  height: 289px;
+}
+
+.header-heading-1 {
+  color: #e8702f;
+  font-family: 'Manrope', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 42px;
+}
+
+.header-heading-2 {
+  font-family: 'Manrope', sans-serif;
+  color: #01010c;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.header-content p {
+  margin-top: 19px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.input-container {
+  position: relative;
+  margin-top: 36px;
+}
+
+.header-input {
+  border: 2px solid #e8702f;
+  border-radius: 50px;
+  width: 424px;
+  height: 40px;
+  padding: 10px 25px;
+}
+
+.header-btn-input {
+  position: absolute;
+  left: 309px;
+  background: var(--orang);
+  width: 115px;
+  height: 40px;
+  border-radius: 0 50px 50px 0;
+}
+
+.header-content-link {
+  margin-top: 15px;
+  color: var(--black);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
