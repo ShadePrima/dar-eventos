@@ -89,6 +89,14 @@ font-family: 'Open Sans', sans-serif; */
   top: 5px;
 }
 
+.nav-button-mob {
+  display: none;
+}
+
+.header-mobile-lg-bg {
+  display: none;
+}
+
 /* header-content */
 
 .header-row {
@@ -166,10 +174,74 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .event-bg {
-  margin: 0 auto;
   position: absolute;
-  left: 211px;
   z-index: -1;
+  /* margin: 0 auto; */
+  /* left: 211px;
+  z-index: -1; */
+}
+
+.event-bg-top-left {
+  position: absolute;
+  left: 10px;
+  width: 255px;
+  height: 180px;
+}
+
+.top-left-big {
+  position: absolute;
+  top: -44px;
+  left: 210px;
+}
+
+.top-left-smoll {
+  position: absolute;
+  top: 53px;
+  left: 367px;
+}
+
+.event-bg-bottom-left {
+  position: absolute;
+  width: 163px;
+  height: 203px;
+  top: 1264px;
+  left: 300px;
+}
+
+.bottom-left-small {
+  position: absolute;
+  left: -47px;
+  top: -69px;
+}
+
+.event-bg-top-right {
+  position: absolute;
+  width: 735px;
+  height: 500px;
+}
+
+.top-right-small {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 607px;
+  left: 951px;
+}
+
+.top-right-middle {
+  position: absolute;
+  width: 107px;
+  height: 107px;
+  top: 182px;
+  left: 1453px;
+}
+
+.top-right-big {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  top: 259px;
+  left: 1529px;
 }
 
 .event-heading {
@@ -304,6 +376,8 @@ font-family: 'Open Sans', sans-serif; */
   border-radius: 50px;
   background: linear-gradient(102.25deg, #fbe10f 0%, #f49705 90.97%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: relative;
+  top: 276px;
 }
 
 .howitwas-button-right {
@@ -318,7 +392,7 @@ font-family: 'Open Sans', sans-serif; */
 .howitwas-wrapper {
   display: flex;
   align-items: center;
-  margin: 0 304px;
+  margin: 0 auto;
 }
 
 .howitwas-container {
@@ -479,13 +553,22 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .property-poligon {
-  position: absolute;
-  width: 163px;
-  height: 203px;
-  left: 1496px;
-  top: -104px;
+  position: relative;
 }
 
+.property-poligon-small {
+  position: absolute;
+
+  top: -62px;
+  left: 1470px;
+}
+
+.property-poligon-middle {
+  position: absolute;
+
+  top: 10px;
+  left: 1470px;
+}
 .property-poligon-middle {
   margin-left: 32px;
 }
@@ -494,6 +577,7 @@ font-family: 'Open Sans', sans-serif; */
 
 .details {
   margin-top: 10px;
+  margin-bottom: 110px;
 }
 
 .details-title {

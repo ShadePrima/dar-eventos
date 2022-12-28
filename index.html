@@ -5,11 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Dar Eventos</title>
   </head>
   <body>
     <header class="header">
       <img class="header-bg" src="./img/header/Header-bg.png" alt="bg" />
+      <img
+        class="header-bg header-mobile-lg-bg"
+        src="./img/mobile/mobil-lg-bg.png"
+        alt="bg"
+      />
+      <img
+        class="header-bg header-mobile-lg-bg"
+        src="./img/mobile/Rectangle 1709.png"
+        alt="bg"
+      />
 
       <div class="container">
         <!-- header-nav -->
@@ -47,6 +58,10 @@
                 </button>
               </li>
             </ul>
+
+            <button class="nav-button-mob">
+              <img src="./img/mobile/mobile-menu.png" alt="Nav button" />
+            </button>
           </nav>
         </div>
         <!-- header-content -->
@@ -78,7 +93,50 @@
     </header>
 
     <section class="event">
-      <img class="event-bg" src="./img/events/events-bg.png" alt="events-bg" />
+      <!-- <img class="event-bg" src="./img/events/events-bg.png" alt="events-bg" /> -->
+      <div class="event-bg">
+        <div class="event-bg-top-left">
+          <img
+            class="top-left-smoll"
+            src="./img/events/Polygon 33-top-left-smol.png"
+            alt="poligon"
+          />
+          <img
+            class="top-left-big"
+            src="./img/events/Polygon 34 -top-left-big.png"
+            alt="poligon"
+          />
+        </div>
+        <div class="event-bg-bottom-left">
+          <img
+            class="bottom-left-small"
+            src="./img/events/Polygon 35-bottom-left-small.png"
+            alt="poligon"
+          />
+          <img
+            class="bottom-left-big"
+            src="./img/events/Polygon 36-bottom-left-small.png"
+            alt="poligon"
+          />
+        </div>
+        <div class="event-bg-top-right">
+          <img
+            class="top-right-small"
+            src="./img/events/Polygon 31-top-right-small.png"
+            alt="poligon"
+          />
+          <img
+            class="top-right-middle"
+            src="./img/events/Polygon 32-top-right-middle.png"
+            alt="poligon"
+          />
+          <img
+            class="top-right-big"
+            src="./img/events/Polygon 37-top-right-big.png"
+            alt="poligon"
+          />
+        </div>
+      </div>
       <div class="container">
         <h1 class="event-heading">наши мероприятия</h1>
         <div class="event-block-1">
@@ -170,29 +228,31 @@
     </section>
 
     <section class="howitwas">
-      <div class="howitwas-wrapper">
-        <button class="howitwas-button">
-          <img
-            src="./img/direction/arrow-right.png"
-            alt="arrw-left"
-            class="arrow-left"
-          />
-        </button>
-        <div class="container howitwas-container">
-          <h1 class="howitwas-title">Как это было</h1>
-          <h2 class="howitwas-title-2">Новогодний Маскарад</h2>
-          <div class="howitwas-items">
-            <img src="./img/howitwas/howitwas-img.png" alt="image" />
+      <div class="container">
+        <div class="howitwas-items">
+          <button class="howitwas-button">
+            <img
+              src="./img/direction/arrow-right.png"
+              alt="arrw-left"
+              class="arrow-left"
+            />
+          </button>
+          <div class="howitwas-container">
+            <h1 class="howitwas-title">Как это было</h1>
+            <h2 class="howitwas-title-2">Новогодний Маскарад</h2>
+            <div class="howitwas-items">
+              <img src="./img/howitwas/howitwas-img.png" alt="image" />
+            </div>
           </div>
-        </div>
 
-        <button class="howitwas-button-right">
-          <img
-            src="./img/direction/arrow-left.png"
-            alt="arrow-right"
-            class="arrow-right"
-          />
-        </button>
+          <button class="howitwas-button-right howitwas-button">
+            <img
+              src="./img/direction/arrow-left.png"
+              alt="arrow-right"
+              class="arrow-right"
+            />
+          </button>
+        </div>
       </div>
     </section>
 
@@ -328,7 +388,7 @@
     <section class="details">
       <h1 class="details-title">Узнать подробности</h1>
       <div class="details-items">
-        <div class="details-item">
+        <div class="details-item details-item-left">
           <img src="./img/details/item-1.png" alt="image-1" />
         </div>
         <div class="details-item details-item-center">
@@ -341,7 +401,7 @@
             Нажимая на кнопку, я даю согласие на обработку персональных данных.
           </p>
         </div>
-        <div class="details-item">
+        <div class="details-item details-item-right">
           <img src="./img/details/item-2.png" alt="image-2" />
         </div>
       </div>
