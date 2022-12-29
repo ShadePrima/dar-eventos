@@ -259,6 +259,13 @@ font-family: 'Open Sans', sans-serif; */
   margin-top: 68px;
 }
 
+.event-block-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 68px;
+}
+
 .event-content-1 {
   width: 561px;
   height: 261px;
@@ -648,13 +655,14 @@ font-family: 'Open Sans', sans-serif; */
 /* footer section */
 
 .footer {
-  height: 391px;
+  /* min-height: 391px; */
   background: linear-gradient(102.25deg, #9402d4 0%, #3924d7 90.97%);
 }
 
 .footer-items {
   padding-top: 75px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
