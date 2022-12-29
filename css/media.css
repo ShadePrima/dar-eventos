@@ -30,6 +30,13 @@
 }
 
 @media (max-width: 1440px) {
+  .howitwas-button img {
+    width: 8px;
+    height: 16px;
+  }
+  .top-right-middle {
+    display: none;
+  }
   .header-bg {
     left: 0;
   }
